@@ -1,0 +1,9 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+        {% block content %}
+        <h1>My fav movie is Matrix</h1>
+        {% load static %}
+        <img style="width:100px;" src="{% static 'movies/ai-background-img.jpeg' %}" alt="About Me Picture">
+        {% endblock %}
+</html>
